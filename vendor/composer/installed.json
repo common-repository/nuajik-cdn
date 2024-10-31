@@ -1,0 +1,106 @@
+[
+    {
+        "name": "nuajik/nuajik-api-php",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://hexack.nuajik.io/nuajik/nuajik-api-php.git",
+            "reference": "a3f59690d477eb505d6d4c2641a1a02fb4ee6ce5"
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "tcdent/php-restclient": ">=0.1.7"
+        },
+        "require-dev": {
+            "php": ">=5.5.7",
+            "phpunit/phpunit": ">=4.5"
+        },
+        "time": "2020-05-29T12:31:29+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/nuajik-api.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arnaud Roux",
+                "email": "arnaud_nuajik@axdev.io",
+                "role": "Developer"
+            },
+            {
+                "name": "Emmanuel Cohen",
+                "email": "e@nuajik.io",
+                "role": "Developer"
+            }
+        ],
+        "description": "A generic client library for nuajik CDN API",
+        "homepage": "https://hexack.nuajik.io/nuajik/nuajik-api-php",
+        "keywords": [
+            "api",
+            "cdn",
+            "nuajik",
+            "rest"
+        ]
+    },
+    {
+        "name": "tcdent/php-restclient",
+        "version": "0.1.7",
+        "version_normalized": "0.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tcdent/php-restclient.git",
+            "reference": "4522e8518eaef770d715977fcb45f187f8ad7499"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tcdent/php-restclient/zipball/4522e8518eaef770d715977fcb45f187f8ad7499",
+            "reference": "4522e8518eaef770d715977fcb45f187f8ad7499",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "php": ">=5.5.7",
+            "phpunit/phpunit": ">=4.5"
+        },
+        "time": "2017-09-07T20:44:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "restclient.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Travis Dent",
+                "email": "tcdent@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A generic REST API client for PHP",
+        "homepage": "http://github.com/tcdent/php-restclient",
+        "keywords": [
+            "api",
+            "client",
+            "curl",
+            "json",
+            "rest",
+            "xml"
+        ]
+    }
+]
